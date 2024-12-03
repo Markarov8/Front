@@ -337,7 +337,7 @@ h3{
       flex-direction: column;
       background: #333333;
       position: absolute;
-      top: 11ex;
+      top: 7.5ex;
       right: 1ex;
       padding: 2ex;
       gap: 2ex;
@@ -398,7 +398,7 @@ h3{
   }
   .logo {
       font-size: 26px;
-      padding-left: 0px;
+      padding-left: 15px;
   }
     .text{
         font-size: 16px;
