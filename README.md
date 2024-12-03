@@ -5,7 +5,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\marka\\Desktop\\Test\\.vscode\\HTML\\index.html"
+            "file": "https://markarov8.github.io/Front/index.html"
         }
     ]
 }
