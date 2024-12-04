@@ -54,6 +54,8 @@ header .logo a{
 }
 
 .mainmenu{
+  display: flex;
+  flex-wrap: nowrap;
   cursor: default;
   z-index: 10;
 }
