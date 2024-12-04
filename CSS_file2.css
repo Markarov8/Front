@@ -309,20 +309,27 @@ header .logo a{
 }
 
 @media (max-width: 600px) {
-  header label {
+  header {
+      padding: 0 1ex 0 0;
+  }
+    header label {
       display: block;
       font-size: 3.9ex;
       cursor: pointer;
   }
   .logo {
-      font-size: 3.9ex;
+      font-size: 26px;
+      padding-left: 15px;
   }
+    .text{
+        font-size: 16px;
+    }
   .mainmenu {
     display: none;
     align-items: center;
     flex-direction: column;
     background: #333333;
     position: absolute;
-    top: 10ex;
+    top: 7ex;
   }
 }
