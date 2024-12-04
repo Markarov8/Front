@@ -318,11 +318,11 @@ header .logo a{
       font-size: 26px;
       padding-left: 15px;
   }
-    .text{
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 16px;
-    }
+.text{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 16px;
+}
   .mainmenu {
     display: none;
     align-items: center;
