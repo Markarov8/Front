@@ -411,6 +411,7 @@ h3{
     flex-direction: column;
     background: #333333;
     position: absolute;
+    padding: 1ex;
     top: 7ex;
   }
 }
