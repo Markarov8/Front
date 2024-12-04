@@ -1,24 +1,17 @@
 body {
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background: linear-gradient(30deg, rgb(173, 211, 223), #949494, rgb(255, 255, 255)); */
-    
+    font-family: "Comfortaa";
     overflow-x: hidden;
     color: #111;
     background: conic-gradient(
     from 0deg,
-    rgb(191, 173, 223),       /* Верхний левый угол */
-    #dcddaf,    /* Верхний правый угол */
-    rgb(204, 182, 147),       
+    rgb(191, 173, 223),
+    #dcddaf,
+    rgb(204, 182, 147),
     #ddafaf,
-    rgb(191, 173, 223)       /* Нижний центр */
+    rgb(191, 173, 223)
   );
 }
-/* 
-@media screen and (orientation: landscape){
-
-} */
-
 
 main {
     padding-left: 1%;
@@ -101,7 +94,7 @@ header .logo a{
 
 h3{
   font-size: 30px;
-  font-family: Comfortaa;
+  font-family: "Comfortaa";
 }
 
 .jump{
@@ -139,7 +132,7 @@ h3{
 .text {
   padding: 2.4ex;
   margin: 0;
-  font-family: Comfortaa;
+  font-family: "Comfortaa";
   font-size: 20px;
   font-weight: 600;
   text-align: left;
@@ -226,7 +219,7 @@ h3{
   border-radius: 25px;
   padding: 15px 20px 20px 20px;
   font-size: 24px;
-  font-family: comfortaa;
+  font-family: "Comfortaa";
 }
 
 #footer_in {
