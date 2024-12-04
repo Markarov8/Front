@@ -288,7 +288,7 @@ h3{
       float: left; 
       padding: 1ex;
       padding-left: 2.5ex;
-      font-size: 50px;
+      font-size: 38px;
       flex-grow: 6;
       text-shadow: 0 0 1ex;
       text-decoration: none;
@@ -330,7 +330,7 @@ h3{
       flex-direction: column;
       background: #333333;
       position: absolute;
-      top: 10ex;
+      top: 8ex;
       right: 1ex;
       padding: 2ex;
       gap: 2ex;
