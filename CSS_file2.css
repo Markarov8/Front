@@ -322,6 +322,8 @@ header .logo a{
       padding-left: 15px;
   }
     .text{
+        padding-left: 0px;
+        padding-right: 0px;
         font-size: 16px;
     }
   .mainmenu {
