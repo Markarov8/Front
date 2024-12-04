@@ -1,21 +1,16 @@
 body {
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background: linear-gradient(30deg, rgb(173, 211, 223), #949494, rgb(255, 255, 255)); */
+    font-family: "Comfortaa";
     overflow-x: hidden;
     color: #111;
     background: conic-gradient(
     from 0deg,
-    rgb(191, 173, 223),       /* Верхний левый угол */
-    #dcddaf,    /* Верхний правый угол */
-    rgb(204, 182, 147),       
+    rgb(191, 173, 223),
+    #dcddaf,
+    rgb(204, 182, 147),
     #ddafaf,
-    rgb(191, 173, 223)       /* Нижний центр */
+    rgb(191, 173, 223)
   );
-}
-
-@media screen and (orientation: landscape){
-    
 }
 
 main {
@@ -124,7 +119,6 @@ header .logo a{
   font-size: 20px;
   font-weight: 600;
   text-align: left;
-  /* flex: 1; Занимает всё доступное пространство */
   line-height: 1.4;
 }
 
