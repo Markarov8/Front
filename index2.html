@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="https://markarov8.github.io/Front/Favi.png">
     <link rel="stylesheet" href="https://markarov8.github.io/Front/CSS_file2.css"> <!-- Подключение стиля CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://github.com/Markarov8/Front/index.js"></script>
 </head>
 
 <body>
@@ -23,13 +24,10 @@
   </header>
 
   <main class="main-content">
-    <div class="sticky-to-top">
-        <button id="scrollToTop">Наверх</button>
-    </div>        
     <div class="jump"></div>
     <div class="content-wrapper">
       <div class="content" id="Введение">
-        <img src="https://gyromania.ru/wa-data/public/shop/products/64/12/1264/images/9187/9187.745.jpg" alt="Electroscooter" class="content-image" />
+        <img src="https://gyromania.ru/wa-data/public/shop/products/64/12/1264/images/9187/9187.745.jpg" alt="Electroscooter" class="content-image" >
         <p class="text">
           <span class="textmain">Электросамокаты Halten</span><br><br>
           Halten – это российский бренд, который эффективно конкурирует
@@ -40,8 +38,11 @@
               что делает бренд лучшим выбором для тех, кто ищет надежный электросамокат 
               с долгим сроком службы.
         </p>
-        
       </div>
+
+      <button id="scroll-to-top" class="hidden">Наверх</button>
+      <script src="https://github.com/Markarov8/Front/index.js"></script>
+
       <div class="content" id="Плюсы">
         <p class="text">
           <span class="textmain">Плюсы:</span><br><br>
@@ -101,13 +102,25 @@
                 <div class="footer-column">
                   <div class="title">Навигация</div>
                   <ul class="menu">
-                    <li><a class="poisk" href="#Заголовок">В начало страницы</a></li>
-                    <li><a href="#Введение">Общая информация</a></li>
-                    <li><a href="#Плюсы">Плюсы</a></li>
-                    <li><a href="#Минусы">Минусы</a></li>
-                    <li><a href="#ППлюсы">Подробнее о плюсах</a></li>
-                    <li><a href="#ПМинусы">Подробнее&nbsp;о&nbsp;минусах</a></li>
-                  </ul>
+                    <li class="footer-list">
+                        <a class="poisk" data-target="Заголовок" href="#">В&nbsp;начало&nbsp;страницы</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="poisk" data-target="Введение" href="#Введение">Общая информация</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="poisk" data-target="Плюсы" href="#Плюсы">Плюсы</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="poisk" data-target="Минусы" href="#Минусы">Минусы</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="poisk" data-target="ППлюсы" href="#ППлюсы">Подробнее о плюсах</a>
+                    </li>
+                    <li class="footer-list">
+                      <a class="poisk" data-target="ПМинусы" href="#ПМинусы">Подробнее&nbsp;о&nbsp;минусах</a>
+                  </li>
+                </ul>
                 </div>
           
                 <div class="footer-column">
