@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scrollToTopButton = document.getElementById('scroll-to-top');
-    const menuLinks = document.querySelectorAll('.menu a');
+    const menuLinks = document.querySelectorAll('.menu1 a');
 
     menuLinks.forEach(link => {
         link.addEventListener('click', event => {
